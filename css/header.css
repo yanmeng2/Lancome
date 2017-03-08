@@ -89,7 +89,266 @@ nav div input:last-child {
 
 #banner {
   width: 1267px;
-  height: 559px;
-  border: 1px solid red; }
+  height: 485px;
+  overflow: hidden;
+  position: relative; }
+
+#banner #slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9999px; }
+
+#banner #slide li {
+  float: left;
+  width: 1267px;
+  height: 485px;
+  background: rgba(0, 0, 0, 0.5); }
+
+#banner #slide li img {
+  width: 1267px;
+  height: 485px; }
+
+#banner #prev, #banner #next {
+  width: 30px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  background: #fff;
+  position: absolute;
+  top: 220px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border: 1px solid lightgray; }
+
+#banner #prev {
+  left: 0; }
+
+#banner #next {
+  right: 0; }
+
+#banner #list {
+  position: absolute;
+  bottom: 20px;
+  left: 609px; }
+
+#banner #list li {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  float: left;
+  margin-left: 2px; }
+
+#banner #list li.active {
+  background: #000; }
+
+#news {
+  width: 1267px;
+  height: 353px; }
+
+#news li:nth-child(1) {
+  float: left;
+  margin: 46px 23px 0 0; }
+
+#news li:nth-child(2) {
+  float: left;
+  margin: 46px 23px 0 0; }
+
+#news li:nth-child(3) {
+  float: left;
+  margin: 46px 24px 0 0; }
+
+#news li:nth-child(4) {
+  float: left;
+  margin: 46px 0 0 0; }
+
+#content {
+  width: 1267px;
+  height: 438px;
+  border-top: 3px solid black;
+  position: relative;
+  padding-top: 17px;
+  border-bottom: 1px solid lightgray; }
+
+#content p {
+  width: 182px;
+  height: 39px;
+  position: absolute;
+  left: 540px;
+  top: -20px;
+  background: #fff;
+  font-size: 39px;
+  text-align: center;
+  line-height: 39px;
+  word-spacing: 1px;
+  z-index: 1; }
+
+#content span {
+  width: 141px;
+  height: 33px;
+  background: #000;
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 91px;
+  top: 342px; }
+
+#content span:nth-child(2) {
+  left: 410px;
+  top: 342px; }
+
+#content span:nth-child(3) {
+  left: 730px;
+  top: 342px; }
+
+#content span:nth-child(4) {
+  left: 1050px;
+  top: 342px; }
+
+#content span a {
+  font-size: 16px;
+  color: white;
+  line-height: 33px; }
+
+#content span:hover {
+  background: red; }
+
+#content .slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1267px;
+  height: 437px; }
+
+#content .slide li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none; }
+
+#content .slide li:nth-child(1) {
+  display: block; }
+
+#content .prev, #content .next {
+  width: 30px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  background: #fff;
+  position: absolute;
+  top: 220px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border: 1px solid lightgray;
+  display: none; }
+
+#content:hover .prev, #content:hover .next {
+  display: block; }
+
+#content .prev {
+  left: 0; }
+
+#content .next {
+  right: 0; }
+
+#content .list {
+  position: absolute;
+  bottom: 20px;
+  left: 609px; }
+
+#content .list li {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  float: left;
+  margin-left: 2px;
+  border: 1px solid lightgray; }
+
+#content .list li.active {
+  background: #000; }
+
+#list-items {
+  width: 1267px;
+  height: 478px;
+  border-bottom: 1px solid lightgray; }
+
+#list-items ul {
+  width: 1267px;
+  height: 46px;
+  margin-bottom: 31px; }
+
+#list-items ul li {
+  float: left;
+  width: 315px;
+  height: 46px;
+  font-size: 20px;
+  line-height: 46px;
+  text-align: center;
+  background: lightgray;
+  border-right: 1px solid darkgray; }
+
+#list-items span img {
+  margin: 0 0 31px 28px;
+  float: left; }
+
+#list-items div dl {
+  float: left;
+  padding-left: 56px;
+  width: 365px;
+  height: 170px; }
+
+#list-items div dl:nth-child(1) {
+  float: left; }
+
+#list-items div dl:nth-child(2) {
+  float: right; }
+
+#list-items div dl dd {
+  float: left; }
+
+#list-items div dt p {
+  width: 141px;
+  height: 40px;
+  float: right;
+  padding-top: 22px;
+  font-size: 16px; }
+
+#list-items div dt b {
+  width: 141px;
+  height: 63px;
+  float: right;
+  font-size: 12px;
+  line-height: 63px; }
+
+#list-items div dt span {
+  width: 141px;
+  height: 35px;
+  float: right;
+  font-size: 14px;
+  line-height: 35px;
+  background: #000;
+  text-align: center; }
+
+#list-items div dt span a {
+  color: #fff; }
+
+#list-items div dt span:hover {
+  background: red; }
+
+#list-items .option {
+  overflow: hidden; }
+
+#list-items .option .active {
+  display: block; }
+
+#list-items .list div {
+  display: none; }
+
+#list-items .list active {
+  display: block; }
 
 /*# sourceMappingURL=header.css.map */
