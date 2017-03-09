@@ -1,0 +1,232 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial,Helvetica,sans-serif,"瀹嬩綋";
+  font-size: 12px;
+  line-height: 22px;
+  color: #525252; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+#header {
+  width: 1267px;
+  height: 137px;
+  position: relative;
+  background: #000; }
+
+#header img {
+  position: absolute;
+  left: 533px;
+  top: 71px;
+  width: 214px;
+  height: 53px; }
+
+#header ul {
+  position: absolute;
+  left: 1010px;
+  height: 14px; }
+
+#header ul li {
+  float: left; }
+
+#header ul li:last-child {
+  background: url(../img/shopcar.png) no-repeat 6px 2px; }
+
+#header ul li a {
+  color: white;
+  padding: 0 12px;
+  border-left: 1px solid white; }
+
+#header ul li:last-child a {
+  padding-left: 30px; }
+
+#header ul li:first-child a {
+  border-left: none; }
+
+nav {
+  width: 1213px;
+  height: 53px;
+  background: #fff;
+  border-bottom: 4px solid black;
+  padding-left: 54px;
+  padding-top: 14px; }
+
+nav .container {
+  width: 950px;
+  height: 53px;
+  line-height: 53px;
+  float: left; }
+
+nav .container > li {
+  float: left;
+  padding: 0 23px;
+  font-size: 17px; }
+
+nav div {
+  float: right;
+  width: 140px;
+  height: 18px;
+  margin-top: 17px;
+  border: 1px solid gainsboro; }
+
+nav div input:first-child {
+  width: 22px;
+  height: 18px;
+  float: right; }
+
+nav div input:last-child {
+  width: 118px;
+  height: 18px;
+  float: right;
+  border: none; }
+
+nav .container ul > li {
+  position: relative; }
+
+nav .container li div {
+  position: absolute;
+  left: 80px;
+  top: 190px;
+  display: none;
+  width: 1100px;
+  height: 600px;
+  z-index: 1;
+  background: #fff;
+  border: 1px solid #000;
+  padding-left: 10px; }
+
+nav .container li div dl {
+  float: left;
+  width: 190px;
+  margin: 10px; }
+
+nav .container li div dl dd {
+  border-bottom: 1px solid #000;
+  font-size: 18px; }
+
+nav .container li div dl dt {
+  font-size: 16px; }
+
+#footer-logo {
+  width: 1267px;
+  height: 164px;
+  text-align: center;
+  line-height: 184px;
+  margin-top: 20px; }
+
+#footer-navigation {
+  width: 1234px;
+  height: 367px;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  padding-top: 36px;
+  padding-left: 33px; }
+
+#footer-navigation section {
+  width: 812px;
+  height: 315px;
+  border-right: 2px solid lightgray;
+  margin-right: 52px;
+  float: left; }
+
+#footer-navigation section dl {
+  float: left;
+  width: 201px;
+  height: 146px; }
+
+#footer-navigation section dd a {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold; }
+
+#footer-navigation section dd {
+  margin-bottom: 5px; }
+
+#footer-navigation section dt a {
+  color: gray;
+  font-size: 14px; }
+
+#footer-navigation section a:hover {
+  text-decoration: underline; }
+
+#footer-navigation aside {
+  float: left; }
+
+#footer-navigation aside .news {
+  padding-top: 25px;
+  padding-left: 34px;
+  float: left;
+  width: 328px;
+  height: 90px;
+  color: #000;
+  background: lightgray;
+  margin-bottom: 37px; }
+
+#footer-navigation aside .news p {
+  font-size: 16px; }
+
+#footer-navigation aside .news input:first-child {
+  width: 205px;
+  height: 31px;
+  font-size: 17px; }
+
+#footer-navigation aside .news input:last-child {
+  width: 70px;
+  height: 31px; }
+
+#footer-navigation aside .tel p:first-child {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000; }
+
+#footer-navigation aside .tel {
+  margin-bottom: 18px; }
+
+#footer-navigation aside .focus p:first-child {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000;
+  margin-bottom: 15px; }
+
+#footer-navigation aside .focus img {
+  margin-right: 7px; }
+
+#footer-navigation aside .focus img:first-child {
+  width: 18px;
+  height: 14px; }
+
+#footer-navigation aside .focus span {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #000; }
+
+#footer-navigation aside .wechat {
+  margin-top: 15px; }
+
+#footer-navigation aside .wechat p {
+  float: left;
+  font-size: 14px; }
+
+#footer-navigation aside .wechat img {
+  float: left; }
+
+#footer {
+  width: 1267px;
+  height: 135px;
+  padding-top: 44px; }
+
+#footer .footer-copyright a {
+  margin-left: 30px;
+  color: #000; }
+
+#footer .footer-copyright {
+  padding-top: 24px; }
+
+/*# sourceMappingURL=style.css.map */

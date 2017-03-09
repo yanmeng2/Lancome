@@ -15,78 +15,6 @@ a {
 ul, li {
   list-style: none; }
 
-#header {
-  width: 1267px;
-  height: 137px;
-  position: relative;
-  background: #000; }
-
-#header img {
-  position: absolute;
-  left: 533px;
-  top: 71px;
-  width: 214px;
-  height: 53px; }
-
-#header ul {
-  position: absolute;
-  left: 1010px;
-  height: 14px; }
-
-#header ul li {
-  float: left; }
-
-#header ul li:last-child {
-  background: url(../img/shopcar.png) no-repeat 6px 2px; }
-
-#header ul li a {
-  color: white;
-  padding: 0 12px;
-  border-left: 1px solid white; }
-
-#header ul li:last-child a {
-  padding-left: 30px; }
-
-#header ul li:first-child a {
-  border-left: none; }
-
-nav {
-  width: 1213px;
-  height: 53px;
-  background: #fff;
-  border-bottom: 4px solid black;
-  padding-left: 54px;
-  padding-top: 14px; }
-
-nav .container {
-  width: 950px;
-  height: 53px;
-  line-height: 53px;
-  float: left; }
-
-nav .container > li {
-  float: left;
-  padding: 0 23px;
-  font-size: 17px; }
-
-nav div {
-  float: right;
-  width: 140px;
-  height: 18px;
-  margin-top: 17px;
-  border: 1px solid gainsboro; }
-
-nav div input:first-child {
-  width: 22px;
-  height: 18px;
-  float: right; }
-
-nav div input:last-child {
-  width: 118px;
-  height: 18px;
-  float: right;
-  border: none; }
-
 #banner {
   width: 1267px;
   height: 485px;
@@ -189,7 +117,6 @@ nav div input:last-child {
   width: 141px;
   height: 33px;
   background: #000;
-  display: block;
   text-align: center;
   position: absolute;
   left: 91px;
@@ -208,6 +135,7 @@ nav div input:last-child {
   top: 342px; }
 
 #content span a {
+  display: block;
   font-size: 16px;
   color: white;
   line-height: 33px; }
@@ -291,40 +219,46 @@ nav div input:last-child {
   background: lightgray;
   border-right: 1px solid darkgray; }
 
-#list-items span img {
+#list-items span {
   margin: 0 0 31px 28px;
   float: left; }
 
-#list-items div dl {
+#list-items .list div {
+  position: absolute;
+  width: 850px;
+  height: 353px;
+  right: 0; }
+
+#list-items .list div dl {
   float: left;
   padding-left: 56px;
   width: 365px;
   height: 170px; }
 
-#list-items div dl:nth-child(1) {
+#list-items .list div dl:nth-child(1) {
   float: left; }
 
-#list-items div dl:nth-child(2) {
+#list-items .list div dl:nth-child(2) {
   float: right; }
 
-#list-items div dl dd {
+#list-items .list div dl dd {
   float: left; }
 
-#list-items div dt p {
+#list-items .list div dt p {
   width: 141px;
   height: 40px;
   float: right;
   padding-top: 22px;
   font-size: 16px; }
 
-#list-items div dt b {
+#list-items .list div dt b {
   width: 141px;
   height: 63px;
   float: right;
   font-size: 12px;
   line-height: 63px; }
 
-#list-items div dt span {
+#list-items .list div dt span {
   width: 141px;
   height: 35px;
   float: right;
@@ -333,22 +267,33 @@ nav div input:last-child {
   background: #000;
   text-align: center; }
 
-#list-items div dt span a {
+#list-items .list div dt span a {
   color: #fff; }
 
-#list-items div dt span:hover {
+#list-items .list div dt span:hover {
   background: red; }
 
-#list-items .option {
-  overflow: hidden; }
-
 #list-items .option .active {
-  display: block; }
+  background: #fff; }
 
 #list-items .list div {
   display: none; }
 
-#list-items .list active {
+#list-items .list .active {
   display: block; }
 
-/*# sourceMappingURL=header.css.map */
+#empty {
+  width: 1267px;
+  height: 28px; }
+
+#magazine, #test {
+  width: 1200px;
+  height: 360px;
+  padding: 20px 20px 0 20px;
+  border: 1px solid lightgray; }
+
+#magazine img, #test img {
+  width: 1200px;
+  height: 339px; }
+
+/*# sourceMappingURL=home%20page.css.map */

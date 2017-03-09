@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Arial,Helvetica,sans-serif,"瀹嬩綋";
+  font-size: 12px;
+  line-height: 22px;
+  color: #525252; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+#direction {
+  width: 1267px;
+  height: 43px;
+  line-height: 43px; }
+
+#direction a {
+  font-size: 14px;
+  margin: 0 10px;
+  float: left;
+  color: #000; }
+
+#banner {
+  width: 1215px;
+  height: 288px;
+  padding: 26px;
+  border: 1px solid lightgray;
+  background: url(../img/test-background.jpg) no-repeat 26px 26px;
+  background-size: 1215px 288px;
+  position: relative; }
+
+#banner p:nth-child(1) {
+  position: absolute;
+  left: 250px;
+  top: 70px;
+  font-size: 40px; }
+
+#banner p:nth-child(2) {
+  position: absolute;
+  left: 190px;
+  top: 146px;
+  font-size: 14px; }
+
+#banner p:nth-child(3) {
+  position: absolute;
+  left: 270px;
+  top: 173px;
+  font-size: 14px; }
+
+#wrap {
+  width: 1267px; }
+
+#wrap .option {
+  width: 1267px;
+  height: 124px;
+  border-bottom: 1px solid lightgray;
+  padding-top: 40px;
+  position: relative; }
+
+#wrap .option li {
+  width: 350px;
+  height: 77px;
+  text-align: center;
+  line-height: 77px;
+  font-size: 24px;
+  border: 1px solid gray;
+  position: absolute;
+  bottom: 0; }
+
+#wrap .option li:nth-child(1) {
+  left: 0;
+  background-image: url(../img/skin-beauty-header.jpg);
+  background-size: 350px 77px; }
+
+#wrap .option li:nth-child(2) {
+  left: 423px;
+  background-image: url(../img/skin-beauty-header-b.jpg); }
+
+#wrap .option li:nth-child(3) {
+  left: 846px;
+  background-image: url(../img/mascara-header.jpg);
+  background-size: 350px 77px; }
+
+#wrap .option .active {
+  display: block;
+  font-size: 36px;
+  height: 124px;
+  line-height: 124px; }
+
+#wrap .option {
+  min-height: 0; }
+
+#wrap .list {
+  padding-top: 20px; }
+
+#wrap .list li {
+  display: none; }
+
+#wrap .list li:nth-child(1) {
+  background-image: url(../img/skin-beauty-header-b.jpg);
+  background-size: 1267px 320px;
+  width: 1267px;
+  height: 265px; }
+
+#wrap .list li:nth-child(3) {
+  background-image: url(../img/mascara-header.jpg);
+  background-size: 1267px 320px;
+  width: 1267px;
+  height: 265px; }
+
+#wrap .list .active {
+  display: block; }
+
+#wrap .list li {
+  padding-top: 53px; }
+
+#wrap .list li p:nth-child(1) {
+  font-size: 40px;
+  margin-bottom: 23px;
+  width: 794px;
+  text-align: center; }
+
+#wrap .list li p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 18px;
+  width: 794px;
+  text-align: center; }
+
+#wrap .list li span {
+  display: block;
+  background: #000;
+  width: 122px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  margin-left: 344px; }
+
+#wrap .list li span a {
+  font-size: 16px; }
+
+/*# sourceMappingURL=skin-test.css.map */
