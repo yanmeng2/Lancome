@@ -1,0 +1,22 @@
+*{padding:0;margin:0;}
+body{font-family:Arial,Helvetica,sans-serif,"宋体";font-size:12px;line-height:22px;color:#525252;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+
+#direction{width:1079px;height:43px;line-height:43px;margin:0 auto;}
+#direction a{font-size:14px;margin:0 10px;float:left;color:#000;}
+#direction p{font-size:14px;margin:0 10px;float:left;color:#000;}
+
+#login{width:1079px;height:150px;margin:0 auto;border-bottom:1px solid #000;}
+#login p{font-size:50px;line-height:150px;margin-left:157px;float:left;}
+#login img{float:right;}
+
+#login-page{width:260px;height:230px;margin:0 auto;padding-top:80px;margin:0 auto;}
+#login-page input{width:250px;height:30px;margin-bottom:0px;display:block;}
+#login-page .btn{margin-top:10px;width:140px;height:33px;text-align:center;background:#000;color:#fff;}
+
+#login-contents{width:260px;height:230px;border-top:1px solid lightgray;position:relative;padding-top:40px;margin:0 auto;}
+#login-contents span{text-align:center;position:absolute;left:100px;top:-10px;background:#fff;display:block;width:60px;height:20px;font-size:20px;}
+#login-contents p{font-size:15px;margin-bottom:30px;padding-left:60px;}
+#login-contents a{width:120px;height:35px;line-height:35px;float:left;}
+

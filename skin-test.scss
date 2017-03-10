@@ -28,4 +28,5 @@ ul,li{list-style:none;}
 #wrap .list li p:nth-child(1){font-size:40px;margin-bottom:23px;width:794px;text-align:center;}
 #wrap .list li p:nth-child(2){font-size:14px;margin-bottom:18px;width:794px;text-align:center;}
 #wrap .list li span{display:block;background:#000;width:122px;height:32px;text-align:center;line-height:32px;margin-left:344px;}
-#wrap .list li span a{font-size:16px;}
+#wrap .list li span a{font-size:16px;color:#fff;}
+#wrap .list li span:hover{background:red;}

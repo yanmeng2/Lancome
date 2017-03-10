@@ -142,6 +142,10 @@ ul, li {
   margin-left: 344px; }
 
 #wrap .list li span a {
-  font-size: 16px; }
+  font-size: 16px;
+  color: #fff; }
+
+#wrap .list li span:hover {
+  background: red; }
 
 /*# sourceMappingURL=skin-test.css.map */

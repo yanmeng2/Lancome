@@ -1,0 +1,33 @@
+*{padding:0;margin:0;}
+body{font-family:Arial,Helvetica,sans-serif,"宋体";font-size:12px;line-height:22px;color:#525252;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+
+#direction{width:1079px;height:43px;line-height:43px;margin:0 auto;}
+#direction a{font-size:14px;margin:0 10px;float:left;color:#000;}
+#direction p{font-size:14px;margin:0 10px;float:left;color:#000;}
+
+#register{width:1079px;height:150px;margin:0 auto;border-bottom:1px solid #000;}
+#register p{font-size:50px;line-height:150px;margin-left:157px;float:left;}
+#register img{float:right;}
+
+#register-contents{width:781px;height:230px;border-bottom:1px solid lightgray;margin:0 auto;position:relative;}
+#register-contents section{width:390px;height:221px;font-size:15px;color:#000;float:left;}
+#register-contents section dl dd{width:390px;height:75px;line-height:75px;float:left;}
+#register-contents section dl dt{width:190px;height:35px;line-height:35px;float:left;}
+#register-contents aside{width:245px;height:193px;float:left;padding:28px 105px 0 40px;}
+#register-contents aside p{font-size:15px;}
+#register-contents aside p:nth-child(2){margin-bottom:10px;}
+#register-contents aside p a{text-decoration:underline;}
+#register-contents aside a:nth-child(2){width:120px;height:35px;line-height:35px;float:left;}
+#register-contents aside a:nth-child(3){width:120px;height:35px;line-height:35px;float:left;}
+#register-contents aside a:nth-child(4){width:120px;height:35px;line-height:35px;float:left;}
+#register-contents aside a:nth-child(5){width:120px;height:35px;line-height:35px;float:left;}
+#register-contents span{position:absolute;left:300px;bottom:-10px;width:173px;height:23px;text-align:center;line-height:23px;font-size:23px;color:#000;background:#fff;}
+#register-page{width:781px;height:350px;margin:0 auto;padding-top:80px;padding-left:100px;}
+#register-page input{width:250px;height:30px;margin-bottom:0px;display:block;}
+#register-page .code{width:100px;height:33px;float:left;}
+#register-page .inp{text-align:center;width:60px;height:33px;float:left;margin-left:3px;}
+#register-page .href{display:block;width:90px;height:33px;float:left;line-height:40px;margin-left:5px;}
+#register-page .check{width:15px;height:15px;}
+#register-page .btn{margin-top:20px;width:140px;height:33px;text-align:center;}
