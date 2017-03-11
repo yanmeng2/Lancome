@@ -1,0 +1,24 @@
+*{padding:0;margin:0;}
+body{font-family:Arial,Helvetica,sans-serif,"宋体";font-size:12px;line-height:22px;color:#525252;}
+a{text-decoration:none;}
+ul,li{list-style:none;}
+
+#direction{width:1079px;height:43px;line-height:43px;margin:0 auto;}
+#direction a{font-size:14px;margin:0 10px;float:left;color:#000;}
+#direction p{font-size:14px;margin:0 10px;float:left;color:#000;}
+
+#list-shop{width:1030px;height:295px;margin:0 auto;border:1px solid lightgray;position:relative;padding:23px;}
+#list-shop p{position:absolute;z-index:1;color:#000;}
+#list-shop p:nth-child(1){font-size:24px;left:205px;top:89px;}
+#list-shop p:nth-child(2){font-size:26px;left:220px;top:132px;}
+#list-shop p:nth-child(3){font-size:18px;left:165px;top:170px;}
+#list-shop img{position:absolute;}
+
+#list-shops{width:900px;height:1100px;margin:0 auto;}
+#list-shops li p{font-size:16px;width:110px;height:30px;color:darkgoldenrod;line-height:30px;border-bottom:1px solid lightgray;}
+#list-shops dl{width:300px;float:left;margin:20px 0 30px 0;}
+#list-shops dt{text-align:center;}
+#list-shops dd{text-align:center;}
+#list-shops dd:last-child{width:80px;text-align:center;line-height:30px;background:#000;font-size:16px;margin-left:115px;}
+#list-shops dd a{color:#fff;}
+#list-shops dd:last-child:hover{background:red;}

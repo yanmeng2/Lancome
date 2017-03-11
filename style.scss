@@ -21,7 +21,7 @@ nav div input:first-child{width:22px;height:18px;float:right;}
 nav div input:last-child{width:118px;height:18px;float:right;border:none;}
 
 nav .container ul >li{position:relative;}
-nav .container li div{position:absolute;left:80px;top:191px;display:none;width:1100px;height:600px;z-index:1;background:#fff;border:1px solid #000;padding-left:10px;}
+nav .container li div{position:absolute;left:80px;top:191px;display:none;width:1100px;height:600px;z-index:2;background:#fff;border:1px solid #000;padding-left:10px;}
 nav .container li div dl{float:left;width:190px;margin:10px;}
 nav .container li div dl dd{border-bottom:1px solid #000;font-size:18px;}
 nav .container li div dl dt{font-size:16px;}
@@ -56,9 +56,4 @@ nav .container .active{border-bottom:4px solid red;}
 #footer .footer-copyright a{margin-left:30px;color:#000;}
 #footer .footer-copyright{padding-top:24px;}
 
-#stick{width:40px;height:40px;text-align:center;line-height:40px;position:fixed;right:0;}
-returnTop.onclick=function(){
-                var scroll=document.body.scrollTop||document.documentElement.scrollTop;
-                scroll=0;
-                document.body.scrollTop=scroll;
-    }
+#stick{width:55px;height:50px;text-align:center;line-height:40px;background:#000;color:#fff;position:fixed;right:0;top:845px;cursor:pointer;}

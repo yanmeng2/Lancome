@@ -63,11 +63,22 @@ ul, li {
 
 #login-page .btn {
   margin-top: 10px;
-  width: 140px;
+  width: 125px;
   height: 33px;
   text-align: center;
   background: #000;
-  color: #fff; }
+  color: #fff;
+  float: left;
+  margin-right: 2px; }
+
+#login-page .btn1 {
+  margin-top: 10px;
+  width: 127px;
+  height: 33px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+  float: left; }
 
 #login-contents {
   width: 260px;
@@ -94,9 +105,10 @@ ul, li {
   padding-left: 60px; }
 
 #login-contents a {
-  width: 120px;
+  width: 130px;
   height: 35px;
   line-height: 35px;
-  float: left; }
+  float: left;
+  text-align: center; }
 
 /*# sourceMappingURL=login.css.map */

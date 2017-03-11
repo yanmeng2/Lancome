@@ -69,39 +69,3 @@ cpwd.onblur = function(){
 		}
 		
 }
-console.log($.getJSON("js/user.json"));
-//btn.onclick = function(){
-//	var j = $.getJSON("js/user.json",function(data){data=JSON.parse(user.json)});
-//	console.log(j);
-//	console.log(_name.value);
-//	console.log(pwd.value);
-//	var j1 = JSON.stringify(j);
-//	console.log(j1);
-//	var n = {"name":_name.value,"pwd":pwd.value};
-//	var m = JSON.stringify(n);
-//	console.log(m);
-//	j1.push(m);
-//	console.log(j1);
-//	$.get.JSON("ls/user.json",{"name":_name.value,"pwd":pwd.value},function(){
-//		
-//	});
-//}
-//var userjson = [
-//		{"name":"a","pwd":"123"},
-//		{"name":"b","pwd":"123"},
-//		{"name":"c","pwd":"123"},
-//		{"name":"d","pwd":"123"},
-//		{"name":"e","pwd":"123"}
-//		];
-//btn.onclick = function(){
-//	var add = {"name":_name.value,"pwd":pwd.value};
-//	userjson.push(add);
-//	console.log(userjson);
-}
-
-//test = {}; //空json对像
-//test['firstname'] = "tank"; //添加二个元素
-//test['lastname'] = "zhang";console.log(test); //查看
-//delete test['lastname']; //删除json中的某个元素
-//console.log(test);
-
