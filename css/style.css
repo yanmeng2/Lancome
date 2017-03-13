@@ -17,14 +17,14 @@ ul, li {
 
 #header {
   width: 1267px;
-  height: 137px;
+  height: 140px;
   position: relative;
   background: #000; }
 
 #header img {
   position: absolute;
   left: 533px;
-  top: 71px;
+  top: 45px;
   width: 214px;
   height: 53px; }
 
@@ -68,6 +68,9 @@ nav .container > li {
   float: left;
   padding: 0 23px;
   font-size: 17px; }
+
+nav a {
+  color: #000; }
 
 nav div {
   float: right;
@@ -233,6 +236,7 @@ nav .container .active {
   padding-top: 24px; }
 
 #stick {
+  z-index: 5;
   width: 55px;
   height: 50px;
   text-align: center;
@@ -241,7 +245,7 @@ nav .container .active {
   color: #fff;
   position: fixed;
   right: 0;
-  top: 845px;
+  top: 849px;
   cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

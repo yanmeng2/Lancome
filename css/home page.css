@@ -15,6 +15,27 @@ a {
 ul, li {
   list-style: none; }
 
+body {
+  position: relative; }
+
+marquee {
+  position: fixed;
+  top: 869px;
+  background-image: url(../img/PromotionBar_PC170310.jpg);
+  background-size: 1200px 63px;
+  line-height: 30px;
+  filter: alpha(opacity=70);
+  opacity: 0.7; }
+
+marquee p {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 25px; }
+
+marquee p a {
+  color: antiquewhite;
+  font-size: 25px; }
+
 #banner {
   width: 1267px;
   height: 485px;

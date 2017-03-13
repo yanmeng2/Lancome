@@ -72,13 +72,16 @@ ul, li {
   margin-right: 2px; }
 
 #login-page .btn1 {
-  margin-top: 10px;
-  width: 127px;
-  height: 33px;
+  width: 121px;
+  height: 29px;
+  display: block;
   text-align: center;
-  background: #fff;
-  color: #000;
-  float: left; }
+  background: #000;
+  color: #fff;
+  float: left;
+  margin-top: 10px;
+  line-height: 33px;
+  border: 2px solid lightgray; }
 
 #login-contents {
   width: 260px;

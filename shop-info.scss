@@ -14,17 +14,16 @@ ul,li{list-style:none;}
 #shop-info section dl{float:left;width:900px;height:500px;}
 #shop-info section dt{float:left;}
 #shop-info section dd{float:left;}
-#shop-info section dd:nth-child(2){font-size:30px;margin-top:60px;}
-#shop-info section dd:nth-child(3){font-size:30px;margin-top:30px;}
-#shop-info section dd:nth-child(4){font-size:20px;margin-top:30px;}
-#shop-info section dd:nth-child(5){font-size:20px;margin-top:30px;width:400px;}
-#shop-info section dd:nth-child(6){font-size:20px;margin-top:30px;color:#000;}
-#shop-info section div{position:absolute;left:700px;top:650px;}
+#shop-info section dd:nth-child(2){font-size:30px;margin-top:55px;}
+#shop-info section dd:nth-child(3){font-size:30px;margin-top:25px;}
+#shop-info section dd:nth-child(4){font-size:20px;margin-top:25px;}
+#shop-info section dd:nth-child(5){font-size:20px;margin-top:25px;width:400px;}
+#shop-info section dd:nth-child(6){font-size:20px;margin-top:25px;color:#000;}
+#shop-info section div{position:absolute;left:680px;top:620px;}
 #shop-info section div a input{width:120px;height:30px;font-size:18px;background:#000;color:#fff;}
 
-#minus{cursor: not-allowed;}
-
-
+#shop-info section div .minus{cursor:not-allowed;}
+#shop-info section div input{width:50px;height:30px;line-height:30px;text-align:center;font-size:25px;margin-bottom:8px;}
 
 #shop-info aside{width:900px;height:500px;float:left;}
 #shop-info aside div{width:550px;height:30px;border-bottom:5px solid #000;padding-left:360px;}

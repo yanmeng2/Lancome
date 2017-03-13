@@ -1,3 +1,6 @@
+$(function(){
+
+
 var register = document.getElementById("register-page");
 var btn = register.getElementsByClassName("btn")[0];
 
@@ -32,17 +35,27 @@ code.onblur = function(){
 var msg0 = register.getElementsByClassName("msg0")[0];
 var _name = register.getElementsByClassName("name")[0];
 _name.onblur = function(){
-	ajax("js/user.json",function(res){
-		var oname = JSON.parse(res);
-		var flag = 0;
-		for(i=0;i<oname.length;i++){
-			if(_name.value==oname[i].name){
-			flag = 1;
-			}
-		}
-		if(flag){msg0.innerHTML = "账户已注册";}
+	
+	$.post("checkUser.php",
+				{
+					"name":$("#register-page .name").val()
+				},
+				function(data){
+					msg0.innerHTML = "账户已注册";		
+				}
+		)
+	
+//	ajax("js/user.json",function(res){
+//		var oname = JSON.parse(res);
+//		var flag = 0;
+//		for(i=0;i<oname.length;i++){
+//			if(_name.value==oname[i].name){
+//			flag = 1;
+//			}
+//		}
+//		if(flag){msg0.innerHTML = "账户已注册";}
 //		else{msg0.innerHTML = "账户名不可用";}
-	});
+//	});
 }
 
 //密码
@@ -69,3 +82,26 @@ cpwd.onblur = function(){
 		}
 		
 }
+
+
+
+
+	$("#register-page .btn").click(function(){
+		
+		if(code.value==_inp.value && pwd.value==cpwd.value){
+			$.post("checkUser.php",
+				{
+					"name":$("#register-page .name").val(),
+					"pwd":$("#register-page .pwd").val()
+				},
+				function(data){
+					alert("注册成功！");		
+				}
+		)
+			
+		};
+		
+	});
+	
+	
+});
