@@ -35,13 +35,18 @@ code.onblur = function(){
 var msg0 = register.getElementsByClassName("msg0")[0];
 var _name = register.getElementsByClassName("name")[0];
 _name.onblur = function(){
-	
-	$.post("checkUser.php",
+	$("#register-page .btn").attr("disabled",false);
+	$.post("register.php",
 				{
 					"name":$("#register-page .name").val()
 				},
 				function(data){
-					msg0.innerHTML = "账户已注册";		
+					if(data.indexOf("1")>-1){
+							$("#register-page .msg0").html("亲，该用户名已经存在");
+							$("#register-page .btn").attr("disabled",true);
+						}else{
+							$("#register-page .msg0").html("亲，该用户名可用");	
+						}
 				}
 		)
 	
@@ -56,6 +61,7 @@ _name.onblur = function(){
 //		if(flag){msg0.innerHTML = "账户已注册";}
 //		else{msg0.innerHTML = "账户名不可用";}
 //	});
+
 }
 
 //密码
@@ -86,16 +92,18 @@ cpwd.onblur = function(){
 
 
 
+
+
 	$("#register-page .btn").click(function(){
 		
 		if(code.value==_inp.value && pwd.value==cpwd.value){
-			$.post("checkUser.php",
+			$.post("register-insert.php",
 				{
 					"name":$("#register-page .name").val(),
 					"pwd":$("#register-page .pwd").val()
 				},
 				function(data){
-					alert("注册成功！");		
+					alert("注册成功！");
 				}
 		)
 			
