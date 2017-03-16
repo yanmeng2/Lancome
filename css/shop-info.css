@@ -38,50 +38,39 @@ ul, li {
   height: 2100px;
   margin: 0 auto; }
 
-#shop-info section dl {
-  float: left;
-  width: 900px;
-  height: 500px; }
+#shop-info section {
+  width: 1200px;
+  height: 340px;
+  margin: 0 auto; }
 
 #shop-info section dt {
-  float: left; }
+  float: left;
+  margin-top: 25px; }
 
-#shop-info section dd {
-  float: left; }
+#shop-info section dd:nth-child(1) {
+  font-size: 20px;
+  margin-top: 45px;
+  margin-left: 100px; }
 
 #shop-info section dd:nth-child(2) {
-  font-size: 30px;
-  margin-top: 55px; }
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 100px; }
 
 #shop-info section dd:nth-child(3) {
-  font-size: 30px;
-  margin-top: 25px; }
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 100px; }
 
 #shop-info section dd:nth-child(4) {
-  font-size: 20px;
-  margin-top: 25px; }
-
-#shop-info section dd:nth-child(5) {
-  font-size: 20px;
-  margin-top: 25px;
-  width: 400px; }
-
-#shop-info section dd:nth-child(6) {
-  font-size: 20px;
-  margin-top: 25px;
-  color: #000; }
+  font-size: 15px;
+  margin-top: 35px;
+  margin-left: 100px; }
 
 #shop-info section div {
   position: absolute;
-  left: 680px;
-  top: 620px; }
-
-#shop-info section div a input {
-  width: 120px;
-  height: 30px;
-  font-size: 18px;
-  background: #000;
-  color: #fff; }
+  left: 380px;
+  top: 500px; }
 
 #shop-info section div .minus {
   cursor: not-allowed; }
@@ -94,10 +83,20 @@ ul, li {
   font-size: 25px;
   margin-bottom: 8px; }
 
+#shop-info section div input:last-child {
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  background: #000;
+  color: #fff; }
+
+#shop-info section div input:last-child:hover {
+  background: red; }
+
 #shop-info aside {
-  width: 900px;
+  width: 1200px;
   height: 500px;
-  float: left; }
+  margin: 0 auto; }
 
 #shop-info aside div {
   width: 550px;

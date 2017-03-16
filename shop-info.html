@@ -7,7 +7,7 @@
 		<link href="css/shop-info.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<script type="text/javascript" src="js/base.js"></script>
+	
 		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 		<script type="text/javascript" src="js/shop-info.js"></script>
 		<div id="header">
@@ -15,12 +15,12 @@
 			<ul>
 				<li><a href="login.html">登录与注册</a></li>
 				<li><a href="#">订单查询</a></li>
-				<li><a href="#">购物袋&nbsp;(0)</a></li>
+				<li><a href="shoppingcar.html">购物袋&nbsp;(0)</a></li>
 			</ul>
 		</div>
 		<nav>
 			<ul class="container">
-				<li class="active"><a href="#">首页</a><div></div></li>
+				<li class="active"><a href="home page.html">首页</a><div></div></li>
 				<li><a href="#">护肤</a>
 					<div>
 						<dl>
@@ -134,8 +134,9 @@
 		</nav>
 		
 		<div id="direction">
-			<a href="header.html">首页&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a><p>卸妆清洁</p>
+			<a href="home page.html">首页&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a><p>卸妆清洁</p>
 		</div>
+		
 		
 		<div id="shop-info">
 			<section>
@@ -143,7 +144,7 @@
 					<input type="button" value="-" class="minus" disabled="disabled">
 					<input type="text" class="num" value="1"/>
 					<input type="button" class="plus" value="+"/><br />
-					<a href='###'><input type="button" value="立即购买" /></a>
+					<input type="button"  class="btn" value="加入购物车" />
 				</div>
 			</section>
 			<aside>
@@ -247,3 +248,4 @@
 <script type="text/javascript" src="js/nav.js"></script>
 <script type="text/javascript" src="js/ajax.js"></script>
 <script type="text/javascript" src="js/stick.js"></script>
+<script src="js/cookie.js"></script>

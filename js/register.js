@@ -96,7 +96,7 @@ cpwd.onblur = function(){
 
 	$("#register-page .btn").click(function(){
 		
-		if(code.value==_inp.value && pwd.value==cpwd.value){
+		if(_name.value!=" " && code.value==_inp.value && pwd.value==cpwd.value){
 			$.post("register-insert.php",
 				{
 					"name":$("#register-page .name").val(),

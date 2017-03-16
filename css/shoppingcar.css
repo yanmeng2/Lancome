@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+#direction {
+  width: 1079px;
+  height: 43px;
+  line-height: 43px;
+  margin: 0 auto; }
+
+#direction a {
+  font-size: 14px;
+  margin: 0 10px;
+  float: left;
+  color: #000; }
+
+#direction p {
+  font-size: 14px;
+  margin: 0 10px;
+  float: left;
+  color: #000; }
+
+#shoppingcar {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  border-top: solid 1px #efefef;
+  margin-bottom: 100px; }
+
+#d1 {
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 40px;
+  min-height: 360px;
+  border: solid 1px #ccc; }
+
+.d1p1 {
+  width: 1160px;
+  height: 40px;
+  background: #989a99; }
+
+#d1 .d1p1 span {
+  color: #fff;
+  line-height: 40px; }
+
+#d1 .d1p1 span:nth-child(1) {
+  margin: 0 300px; }
+
+#d1 .d1p1 span:nth-child(2) {
+  margin: 0 30px; }
+
+#d1 .d1p1 span:nth-child(3) {
+  margin: 0 45px; }
+
+#d1 .d1p1 span:nth-child(4) {
+  margin: 0 30px; }
+
+#d1 .d1p1 span:nth-child(5) {
+  margin: 0 30px; }
+
+#d1 ul li {
+  height: 80px;
+  border-bottom: solid 1px #ccc; }
+
+#d1 ul li span {
+  line-height: 80px;
+  font-size: 12px; }
+
+#d1 ul li span img {
+  width: 50px;
+  height: 50px;
+  margin-left: 130px;
+  margin-top: 15px;
+  float: left; }
+
+#d1 ul li span a {
+  line-height: 80px;
+  float: left;
+  font-size: 16px;
+  margin-left: 30px; }
+
+#d1 ul li span:nth-child(1) {
+  display: block;
+  float: left;
+  width: 630px;
+  height: 80px; }
+
+#d1 ul li span:nth-child(2) {
+  display: block;
+  float: left;
+  width: 128px;
+  height: 80px;
+  margin-left: 10px;
+  border-left: solid 1px #ccc;
+  text-align: center; }
+
+#d1 ul li span:nth-child(3) {
+  display: block;
+  float: left;
+  width: 130px;
+  height: 80px;
+  margin-left: 10px;
+  border-left: solid 1px #ccc;
+  text-align: center; }
+
+#d1 ul li span:nth-child(4) {
+  display: block;
+  float: left;
+  width: 130px;
+  height: 80px;
+  margin-left: 10px;
+  border-left: solid 1px #ccc;
+  text-align: center; }
+
+#d1 ul li span:nth-child(5) {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 80px;
+  margin-left: 10px;
+  border-left: solid 1px #ccc;
+  text-align: center; }
+
+#d1 input {
+  width: 30px;
+  height: 30px; }
+
+#d2 {
+  width: 300px;
+  height: 300px;
+  background: url(../img/gwc.jpg) no-repeat 1px 38px;
+  margin-left: 430px;
+  border: solid 1px #fff; }
+
+#d2 a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: #f00;
+  margin-top: 250px;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  color: #fff; }
+
+#shoppingcar .p3 {
+  width: 1160px;
+  margin: 0 auto;
+  height: 80px;
+  border: solid 1px #ccc;
+  border-top: none; }
+
+#shoppingcar .p3 input {
+  float: right;
+  width: 150px;
+  height: 50px;
+  margin: 15px 35px 15px 30px;
+  background: #f00;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px; }
+
+#shoppingcar .p3 span {
+  float: right;
+  line-height: 80px;
+  font-size: 18px; }
+
+#shoppingcar .p3 span a {
+  color: #f00; }
+
+/*# sourceMappingURL=shoppingcar.css.map */

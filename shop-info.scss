@@ -10,22 +10,24 @@ ul,li{list-style:none;}
 
 #shop-info{width:900px;height:2100px;margin:0 auto;}
 
-
-#shop-info section dl{float:left;width:900px;height:500px;}
-#shop-info section dt{float:left;}
-#shop-info section dd{float:left;}
-#shop-info section dd:nth-child(2){font-size:30px;margin-top:55px;}
-#shop-info section dd:nth-child(3){font-size:30px;margin-top:25px;}
-#shop-info section dd:nth-child(4){font-size:20px;margin-top:25px;}
-#shop-info section dd:nth-child(5){font-size:20px;margin-top:25px;width:400px;}
-#shop-info section dd:nth-child(6){font-size:20px;margin-top:25px;color:#000;}
-#shop-info section div{position:absolute;left:680px;top:620px;}
-#shop-info section div a input{width:120px;height:30px;font-size:18px;background:#000;color:#fff;}
-
+#shop-info section {width:1200px;height:340px;margin:0 auto;}
+//#shop-info section div{width:1200px;height:500px;margin:0 auto;}
+//#shop-info section div dl{float:left;}
+#shop-info section dt{float:left;margin-top:25px;}
+//#shop-info section dd{float:left;}
+#shop-info section dd:nth-child(1){font-size:20px;margin-top:45px;margin-left:100px;}
+#shop-info section dd:nth-child(2){font-size:18px;margin-top:25px;margin-left:100px;}
+#shop-info section dd:nth-child(3){font-size:15px;margin-top:25px;margin-left:100px;}
+#shop-info section dd:nth-child(4){font-size:15px;margin-top:35px;margin-left:100px;}
+//#shop-info section dd:nth-child(5){font-size:20px;margin-top:25px;width:400px;}
+//#shop-info section dd:nth-child(6){font-size:20px;margin-top:25px;color:#000;}
+#shop-info section div{position:absolute;left:380px;top:500px;}
 #shop-info section div .minus{cursor:not-allowed;}
 #shop-info section div input{width:50px;height:30px;line-height:30px;text-align:center;font-size:25px;margin-bottom:8px;}
+#shop-info section div input:last-child{width:120px;height:30px;font-size:18px;background:#000;color:#fff;}
+#shop-info section div input:last-child:hover{background:red;}
 
-#shop-info aside{width:900px;height:500px;float:left;}
+#shop-info aside{width:1200px;height:500px;margin:0 auto;}
 #shop-info aside div{width:550px;height:30px;border-bottom:5px solid #000;padding-left:360px;}
 #shop-info aside p{width:150px;height:30px;background:#000;line-height:30px;text-align:center;cursor:pointer;}
 #shop-info aside p span{font-size:16px;color:#fff;}

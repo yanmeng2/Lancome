@@ -6,7 +6,8 @@ var msg0 = login.getElementsByClassName("msg0")[0];
 var _name = login.getElementsByClassName("name")[0];
 _name.onblur = function(){
 	$("#login-page .btn").attr("disabled",false);
-	$.post("register.php",
+	if(_name.value!=" "){
+		$.post("register.php",
 		{
 			"name":$("#login-page .name").val()
 		},
@@ -20,6 +21,9 @@ _name.onblur = function(){
 				$("#login-page .pwd").attr("disabled",true);
 			}
 		});
+	}else{msg0.innerHTML("输入用户名");}
+	
+	
 }
 
 //密码
@@ -28,6 +32,7 @@ var msg1 = login.getElementsByClassName("msg1")[0];
 pwd.onblur = function(){
 	$.post("pwd.php",
 			{
+				"name":$("#login-page .name").val(),
 				"pwd":$("#login-page .pwd").val()
 			},
 			function(data){
